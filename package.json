@@ -1,0 +1,18 @@
+{
+  "name": "learn-tensorflow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js --presets es2015,stage-2"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.11.6",
+    "@tensorflow/tfjs-node": "^0.1.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
